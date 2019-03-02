@@ -28,5 +28,17 @@ Chrome
  d:\> 
  
 > npx create-react-app shopping-cart
+
 > cd shopping-cart
+
 > npm start
+
+# to beging git repo
+
+open command prompt 
+
+git clone https://github.com/nodesense/amphora-shopping-app-react
+
+cd amphora-shopping-app-react
+
+npm start
