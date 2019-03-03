@@ -35,6 +35,16 @@ function Header(props) {
                 Cart
             </NavLink>
 
+
+            <NavLink to="/redux-cart" className="button" activeClassName="success">
+                Redux Cart
+            </NavLink>
+
+            <NavLink to="/func-cart" className="button" activeClassName="success">
+                Func Cart
+            </NavLink>
+
+
             <NavLink to="/checkout" className="button" activeClassName="success">
                 Checkout
             </NavLink>

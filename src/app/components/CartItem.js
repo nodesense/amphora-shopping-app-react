@@ -1,13 +1,18 @@
 // CartItem.js
 import React, {PureComponent} from "react";
 import PropTypes from "prop-types";
+import ThemeContext from "./ThemeContext";
+
+ 
 
 export default class CartItem extends PureComponent {
+    static contextType = ThemeContext;
     // 1. Creation cycle method, called when component created
-    constructor(props) {
-        super(props);
+    constructor(props, context) {
+        super(props, context);
 
         console.log('CartItem created', this.props.item);
+        console.log('context is ', this.context);
     }
  
     // Called after first render 
@@ -29,7 +34,7 @@ export default class CartItem extends PureComponent {
 
         return (
             <tr>
-                <td>{item.name} </td>
+                <td>{item.name} - {this.context.theme} </td>
                 <td>{item.price}</td>
                 <td>{item.qty}</td>
                 <td>{item.price * item.qty}</td>

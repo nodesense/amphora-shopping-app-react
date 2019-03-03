@@ -24,10 +24,15 @@ class Checkout extends Component {
         })
     }
 
+    componentDidMount() {
+        this.headerElement.textContent = "Checkout now";
+        this.nameElement.focus();
+    }
+
     render() {
         return (
             <div>
-                <h2>Checkout</h2>
+                <h2 ref={element => this.headerElement = element }>Checkout</h2>
 
                 <form>
                     Full Name 
@@ -35,6 +40,8 @@ class Checkout extends Component {
                            type="text"
                            value={this.state.fullName}
                            onChange={this.onInputChange}
+
+                           ref={ (element) => this.nameElement = element }
                     />
 
                     Email

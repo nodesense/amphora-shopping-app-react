@@ -67,6 +67,42 @@ npm i react-router-dom
 
 
 
+npm i redux  react-redux    redux-thunk
 
 
 
+# Production build
+
+npm run build
+
+keep the files into build directory
+
+
+npm install http-server -g
+
+http-server -c-1 -p 8888 .
+
+
+file:///Users/krish/workshops/amphora/repo/main.a505ca69.chunk.js.map
+file:///Users/krish/workshops/amphora/repo/2.958aa5ae.chunk.js.map
+
+
+Example source code
+
+
+https://github.com/nodesense/react-app
+
+
+
+# Graphql
+
+git clone https://github.com/nodesense/graphql-demo
+
+cd graphql-demo
+
+cd start
+cd server
+npm install
+npm start
+
+http://localhost:4000/

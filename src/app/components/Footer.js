@@ -27,6 +27,9 @@ const Footer = (props) => {
             <button onClick={() => setCount( count + 1) }>
              +1
             </button>
+
+            {props.children}
+
         </div>
     )
 }

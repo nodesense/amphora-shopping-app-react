@@ -60,7 +60,7 @@ export default class CartList extends PureComponent {
 
 // keyword
 CartList.defaultProps = {
-    
+    items: []
 }
 
 
