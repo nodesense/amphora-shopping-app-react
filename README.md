@@ -33,12 +33,40 @@ Chrome
 
 > npm start
 
-# to beging git repo
 
-open command prompt 
+# RESTFul server
+
+https://github.com/nodesense/restful-server
+
+
+RESTful server
+
+open new (2nd ) command prompt
+
+git clone https://github.com/nodesense/restful-server
+
+cd restful-server
+
+npm install
+
+npm start
+  
+
+# Clone Repo NOT NOW
+
+open command prompt
 
 git clone https://github.com/nodesense/amphora-shopping-app-react
 
 cd amphora-shopping-app-react
 
 npm start
+
+
+npm i react-router-dom
+
+
+
+
+
+
